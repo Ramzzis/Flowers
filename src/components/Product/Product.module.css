@@ -1,0 +1,28 @@
+.card {
+    max-width: 300px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.img {
+    max-width: 600px;
+    object-fit: cover;
+}
+
+.info {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 700px) {
+    .card {
+        background-color: aqua;
+    }
+}
